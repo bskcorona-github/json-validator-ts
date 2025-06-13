@@ -1,0 +1,27 @@
+{
+  "name": "json-validator-ts",
+  "version": "1.0.0",
+  "description": "A JSON format validation and formatting tool in TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist",
+    "validate": "ts-node src/index.ts"
+  },
+  "keywords": [
+    "typescript",
+    "json",
+    "validator",
+    "formatter",
+    "cli"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "ts-node": "^10.9.0",
+    "@types/node": "^20.0.0"
+  }
+}
